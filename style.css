@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: auto;
+}
+.logotodecacho {
+    width: 7%;
+    margin-right: 70px;
+}
+ul {
+    display: flex;
+    list-style: none;
+    width: 40rem;
+    justify-content: space-around;
+}
+.dicas, .cronogramacapilar, .referencias, .produtos, .cadastrese, .contato {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #9767A9;
+}
+.dicas:hover {
+    font-weight: bold;
+}
+.cronogramacapilar:hover{
+    font-weight: bold;
+}
+.referencias:hover {
+    font-weight: bold;
+}
+.produtos:hover {
+    font-weight: bold;
+}
+.cadastrese:hover {
+    font-weight: bold;
+}
+.contato:hover {
+    font-weight: bold;
+}
+.boxbusca {
+    display: flex;
+    border: 3px solid #9767A9;
+    border-radius: 50px;
+    width: 220px;
+    height: 35px;
+    margin-left: 65px;
+    margin-right: 21px;
+}
+.lupa {
+    width: 7%;
+    height: 70%;
+    margin-left: 12px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.buscar {
+    display: flex;
+    margin-left: 5px;
+    margin-right: 16px;
+    margin-top: 3px;
+    opacity: 1;
+    outline: 0;
+    height: 85%;
+    width: 35%;
+    border: none;
+}
+.buscar::-webkit-input-placeholder {
+    font-family: 'Montserrat', sans-serif;
+    color: #9767A9;
+    padding-left: 12px;
+}
+.buscar::-moz-placeholder {
+    font-family: 'Montserrat', sans-serif;
+    color: #9767A9;
+}
+.iconface{
+    margin: 8px;
+    height: 50%;
+    width: auto;
+}
+.iconinsta {
+    margin: 8px;
+    height: 50%;
+    width: auto;
+}
+.iconyoutube {
+    margin: 8px;
+    height: 50%;
+    width: auto;
+}
