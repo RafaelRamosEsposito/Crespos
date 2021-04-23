@@ -4,11 +4,9 @@
     box-sizing: border-box;
 }
 header {
-    position: fixed;
-    top: 0;
+    display: flex;
     background-color: white;
     width: 100%;
-    z-index: 1;
 }
 nav {
     display: flex;
@@ -104,7 +102,6 @@ ul {
 .firstsection {
     width: 100%;
     height: 569px;
-    margin-top: 13px;
     background-image: url(assets/cabeludo@2x.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -164,39 +161,78 @@ ul {
     margin-left: 15px;
     margin-right: 50px;
 }
-.columleft {
+.thirdsection {
     border: 2px solid black;
-    width: 49%;
-    height: 181rem;
     display: flex;
-    margin-top: -3rem;
-    position: relative;
-    margin-left: 13px
+    width: 100%;
+    height: 2788px;
+    flex-direction: column;
+}
+.cabeloespelho, .sejaamavel, .raizes, .orgulho, .referencias, .ignore, .respeite   {
+    width: 574px;
+    height: 476px;
 }
 .cabeloespelho {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    height: 481px;
     position: absolute;
+    top: 830px;
+    right: 678px;
+}
+.referencias {
+    position: absolute;
+    right: 88px;
+    top: 1094px;
+}
+.ignore {
+    position: absolute;
+    right: 88px;
+    top: 1894px;
+}
+.respeite {
+    position: absolute;
+    right: 88px;
+    top: 2606px;
+}
+.orgulho {
+    position: absolute;
+    top: 3082px;
+    right: 678px;
+}
+.raizes {
+    position: absolute;
+    top: 2368px;
+    right: 678px;
+}
+.sejaamavel {
+    position: absolute;
+    top: 1571px;
+    right: 678px;
+}
+.caminho {
+    width: 345px;
+    height: 47px;
+    position: absolute;
+    left: 791px;
+    top: 3444px;
+
+
 }
 .textcabeloespelho {
-border: 2px solid red;    
-display: flex;
-position: absolute;
-width: 412px;
-height: 390px;
-left: 11rem;
-top: 23rem;
-background-color: #9767A9;
-flex-direction: column;
+    border: 2px solid red;
+    display: flex;
+    position: absolute;
+    width: 391px;
+    height: 378px;
+    left: 176px;
+    top: 1167px;
+    background-color: #9767A9;
+    flex-direction: column;
 }
 .tittlecabeloespelho {
     font-family: 'Playfair Display', serif;
     color: #FFFFFF;
-    font-size: 26px;
+    font-size: 24px;
     width: 70%;
-    margin-left: 1rem;
+    margin-left: 16px;
 }
 .tittlecabeloespelho::first-letter {
     font-size:37px ;
@@ -204,122 +240,98 @@ flex-direction: column;
 .boxparagraphcabeloespelho {
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 300;
     border: 2px solid black;
     width: 94%;
-    margin-left: 1rem;
-    padding-top: 1rem;
+    margin-left: 16px;
+    padding-top: 16px;
     display: flex;
     flex-direction: column;
-}
-.sejaamavel {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    height: 481px;
-    position: absolute;
-    margin-top: 49rem;
 }
 .textsejamavel {
-   border: 2px solid red;    
-   display: flex;
-   position: absolute;
-   width: 412px;
-   height: 265px;
-   left: 11rem;
-   top: 71rem;
-   background-color: #9767A9;
-   flex-direction: column;
-}
-.tittlesejaamavel {
-    font-family: 'Playfair Display', serif;
-    color: #FFFFFF;
-    font-size: 26px;
-    width: 73%;
-    margin-left: 1rem;
-}
-.tittlesejaamavel::first-letter {
-    font-size:37px ;
-}
-.boxparagraphsejaamavel {
-    font-family: 'Montserrat', sans-serif;
-    color: #FFFFFF;
-    font-size: 15px;
-    font-weight: 300;
-    width: 94%;
-    margin-left: 1rem;
-    padding-top: 1rem;
-    border: 2px solid black;
+    border: 2px solid red;
     display: flex;
+    position: absolute;
+    width: 406px;
+    height: 263px;
+    left: 176px;
+    top: 1917px;
+    background-color: #9767A9;
     flex-direction: column;
 }
-.raizes {
+ .tittlesejaamavel {
+     font-family: 'Playfair Display', serif;
+     color: #FFFFFF;
+     font-size: 24px;
+     width: 52%;
+     margin-left: 16px;
+ }
+ .tittlesejaamavel::first-letter {
+     font-size:37px ;
+ }
+ .boxparagraphsejaamavel {
+     font-family: 'Montserrat', sans-serif;
+     color: #FFFFFF;
+     font-size: 14px;
+     font-weight: 300;
+     width: 94%;
+     margin-left: 16px;
+     padding-top: 16px;
+     border: 2px solid black;
+     display: flex;
+     flex-direction: column;
+ }
+ .textraizes {
+    border: 2px solid red;
     display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    height: 481px;
     position: absolute;
-    margin-top: 96rem;
-}
-.textraizes {
-    border: 2px solid red;    
-   display: flex;
-   position: absolute;
-   width: 412px;
-   height: 330px;
-   left: 11rem;
-   top: 118rem;
-   background-color: #9767A9;
-   flex-direction: column;
+    width: 397px;
+    height: 309px;
+    left: 176px;
+    top: 2684px;
+    background-color: #9767A9;
+    flex-direction: column;
 }
 .tittleraizes {
     font-family: 'Playfair Display', serif;
     color: #FFFFFF;
-    font-size: 26px;
+    font-size: 24px;
     width: 70%;
-    margin-left: 1rem;
+    margin-left: 16px;
 }
 .tittleraizes::first-letter {
     font-size:37px ;
 }
-    .boxparagraphraizes{
-        font-family: 'Montserrat', sans-serif;
-        color: #FFFFFF;
-        font-size: 15px;
-        font-weight: 300;
-        width: 94%;
-        margin-left: 1rem;
-        padding-top: 1rem;
-        border: 2px solid black;
-        display: flex;
-        flex-direction: column;
-    }
-.orgulho {
+.boxparagraphraizes{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 300;
+    width: 94%;
+    margin-left: 16px;
+    padding-top: 16px;
+    border: 2px solid black;
     display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    height: 481px;
-    position: absolute;
-    margin-top: 145rem;
+    flex-direction: column;
 }
 .textorgulho {
-    border: 2px solid red;    
+    border: 2px solid red;
     display: flex;
     position: absolute;
-    width: 412px;
+    width: 397px;
     height: 228px;
-    left: 11rem;
-    top: 166rem;
+    left: 176px;
+    top: 3425px;
     background-color: #9767A9;
     flex-direction: column;
 }
 .tittleorgulho {
     font-family: 'Playfair Display', serif;
     color: #FFFFFF;
-    font-size: 26px;
+    font-size: 24px;
     width: 70%;
-    margin-left: 1rem;
+    margin-left: 16px;
 }
 .tittleorgulho::first-letter {
     font-size:37px ;
@@ -327,50 +339,32 @@ flex-direction: column;
 .boxparagraphorgulho {
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 300;
     width: 94%;
-    margin-left: 1rem;
-    padding-top: 1rem;
+    margin-left: 16px;
+    padding-top: 16px;
     border: 2px solid black;
     display: flex;
     flex-direction: column;
-}
-.columright {
-    border: 2px solid green;
-    width: 49%;
-    height: 178rem;
-    display: flex;
-    position: relative;
-    left: 671px;
-    bottom: 178rem;
-    margin-left: 14px;
-}
-.referencias {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-    height: 481px;
-    position: absolute;
-    margin-top: 16rem;
 }
 .textreferencias {
     border: 2px solid red;
     display: flex;
     position: absolute;
-    width: 411px;
-    height: 331px;
-    left: 73px;
-    top: 597px;
+    width: 397px;
+    height: 324px;
+    left: 759px;
+    top: 1433px;
     background-color: #9767A9;
     flex-direction: column;
 }
 .tittlereferencias {
     font-family: 'Playfair Display', serif;
     color: #FFFFFF;
-    font-size: 26px;
+    font-size: 24px;
     width: 70%;
-    margin-left: 1rem;
+    margin-left: 16px;
 }
 .tittlereferencias::first-letter {
     font-size:37px ;
@@ -378,40 +372,32 @@ flex-direction: column;
 .boxparagraphreferencias {
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 300;
     width: 94%;
-    margin-left: 1rem;
-    padding-top: 1rem;
+    margin-left: 16px;
+    padding-top: 16px;
     border: 2px solid black;
     display: flex;
     flex-direction: column;
-}
-.ignore {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-    height: 481px;
-    position: absolute;
-    margin-top: 63rem;
 }
 .textignore {
     border: 2px solid red;
     display: flex;
     position: absolute;
-    width: 411px;
-    height: 259px;
-    left: 73px;
-    top: 1460px;
+    width: 397px;
+    height: 239px;
+    left: 759px;
+    top: 2340px;
     background-color: #9767A9;
     flex-direction: column;
 }
 .tittleignore {
     font-family: 'Playfair Display', serif;
     color: #FFFFFF;
-    font-size: 26px;
+    font-size: 24px;
     width: 88%;
-    margin-left: 1rem;
+    margin-left: 16px;
 }
 .tittleignore::first-letter {
     font-size:37px ;
@@ -419,40 +405,32 @@ flex-direction: column;
 .boxparagraphignore {
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 300;
     width: 94%;
-    margin-left: 1rem;
-    padding-top: 1rem;
+    margin-left: 16px;
+    padding-top: 16px;
     border: 2px solid black;
     display: flex;
     flex-direction: column;
-}
-.respeite {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-    height: 481px;
-    position: absolute;
-    margin-top: 109rem;
 }
 .textrespeite {
     border: 2px solid red;
     display: flex;
     position: absolute;
-    width: 411px;
+    width: 397px;
     height: 273px;
-    left: 73px;
-    top: 2160px;
+    left: 759px;
+    top: 3005px;
     background-color: #9767A9;
     flex-direction: column;
 }
 .tittlerespeite {
     font-family: 'Playfair Display', serif;
     color: #FFFFFF;
-    font-size: 26px;
+    font-size: 24px;
     width: 70%;
-    margin-left: 1rem;
+    margin-left: 16px;
 }
 .tittlerespeite::first-letter {
     font-size:37px ;
@@ -460,23 +438,12 @@ flex-direction: column;
 .boxparagraphrespeite {
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 300;
     width: 94%;
-    margin-left: 1rem;
-    padding-top: 1rem;
+    margin-left: 16px;
+    padding-top: 16px;
     border: 2px solid black;
     display: flex;
     flex-direction: column;
-}
-.fio {
-    display: flex;
-    width: auto;
-    height: auto;
-    position: absolute;
-    margin-top: 164rem;
-    margin-left: 96px;
-}
-.imgfio {
-    width: 374px;
 }
