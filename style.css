@@ -145,7 +145,6 @@ ul {
     font-family: 'Playfair Display', serif;
     color: #FFFFFF;
     font-size: 47px;
-    border: 2px solid black;
     width: 670px;
     line-height: 61px;
 }
@@ -155,14 +154,12 @@ ul {
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 300;
-    border: 2px solid black;
     width: 432px;
     margin-top: 15px;
     margin-left: 15px;
     margin-right: 50px;
 }
 .thirdsection {
-    border: 2px solid black;
     display: flex;
     width: 100%;
     height: 2950px;
@@ -242,7 +239,6 @@ ul {
     color: #FFFFFF;
     font-size: 14px;
     font-weight: 300;
-    border: 2px solid black;
     width: 94%;
     margin-left: 16px;
     padding-top: 16px;
@@ -250,7 +246,6 @@ ul {
     flex-direction: column;
 }
 .textsejamavel {
-    border: 2px solid red;
     display: flex;
     position: absolute;
     width: 406px;
@@ -278,12 +273,10 @@ ul {
      width: 94%;
      margin-left: 16px;
      padding-top: 16px;
-     border: 2px solid black;
      display: flex;
      flex-direction: column;
  }
  .textraizes {
-    border: 2px solid red;
     display: flex;
     position: absolute;
     width: 397px;
@@ -311,12 +304,10 @@ ul {
     width: 94%;
     margin-left: 16px;
     padding-top: 16px;
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
 }
 .textorgulho {
-    border: 2px solid red;
     display: flex;
     position: absolute;
     width: 397px;
@@ -344,12 +335,10 @@ ul {
     width: 94%;
     margin-left: 16px;
     padding-top: 16px;
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
 }
 .textreferencias {
-    border: 2px solid red;
     display: flex;
     position: absolute;
     width: 397px;
@@ -377,12 +366,10 @@ ul {
     width: 94%;
     margin-left: 16px;
     padding-top: 16px;
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
 }
 .textignore {
-    border: 2px solid red;
     display: flex;
     position: absolute;
     width: 397px;
@@ -410,12 +397,10 @@ ul {
     width: 94%;
     margin-left: 16px;
     padding-top: 16px;
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
 }
 .textrespeite {
-    border: 2px solid red;
     display: flex;
     position: absolute;
     width: 397px;
@@ -443,7 +428,6 @@ ul {
     width: 94%;
     margin-left: 16px;
     padding-top: 16px;
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
 }
@@ -451,7 +435,6 @@ ul {
     display: flex;
     width: 100%;
     height: 685px;
-    border: 2px solid black;
 }
 .king {
     position: absolute;
@@ -508,4 +491,79 @@ ul {
     width: 191px;
     left: 1151px;
     bottom: -3791px
+}
+footer {
+    display: flex;
+    width: 100%;
+    height: 75px;
+    background-color:#9767A9 ;
+}
+.textfooter {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    flex-direction: column;
+    justify-content: center;
+    width: 699px;
+    height: 75px;
+    font-size: 11px;
+    margin-left: 84px;
+}
+.boxpganterior {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 95px;
+    height: 75px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 300;
+    align-items: center;
+    margin-left: 265px;
+    cursor: pointer;
+}
+.boxpganterior:hover {
+    background-color:#be94ce ;
+}
+.setaanterior {
+    margin-right: 6px;
+}
+.boxtopo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 95px;
+    height: 75px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 300;
+    align-items: center;
+    cursor: pointer;
+}
+.boxtopo:hover {
+    background-color:#be94ce ;
+}
+.setatopo{
+    margin-right: 6px;
+}
+.boxpgproxima {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 95px;
+    height: 75px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 300;
+    align-items: center;
+    cursor: pointer;
+}
+.boxpgproxima:hover {
+    background-color:#be94ce ;
+}
+.setaproximo {
+    margin-left: 6px;
 }
