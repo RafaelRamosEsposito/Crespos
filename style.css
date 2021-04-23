@@ -165,7 +165,7 @@ ul {
     border: 2px solid black;
     display: flex;
     width: 100%;
-    height: 2788px;
+    height: 2950px;
     flex-direction: column;
 }
 .cabeloespelho, .sejaamavel, .raizes, .orgulho, .referencias, .ignore, .respeite   {
@@ -446,4 +446,66 @@ ul {
     border: 2px solid black;
     display: flex;
     flex-direction: column;
+}
+.fourthsection {
+    display: flex;
+    width: 100%;
+    height: 685px;
+    border: 2px solid black;
+}
+.king {
+    position: absolute;
+    width: 295px;
+    left: 89px;
+}      
+.marya {
+    position: absolute;
+    left: 405px;
+    width: 196px;
+}
+.pantera {
+    position: absolute;
+    width: 194px;
+    left: 407px;
+    bottom: -3606px;
+}
+.gloria {
+    position: absolute;
+    bottom: -3790px;
+    width: 295px;
+    margin-left: 87px;
+}
+.tais{
+    position: absolute;
+    width: 192px;
+    bottom: -3791px;
+    left: 406px;
+}
+.cigarro {
+    position: absolute;
+    width: 194px;
+    left: 620px;
+
+}
+.snoopy {
+    position: absolute;
+    width: 192px;
+    bottom: -3791px;
+    left: 622px;
+}
+.cabelao {
+    position: absolute;
+    width: 295px;
+    left: 834px;
+}
+.penteado {
+    position: absolute;
+    width: 195px;
+    left: 1148px;
+}
+.barba {
+    position: absolute;
+    width: 191px;
+    left: 1151px;
+    bottom: -3791px
 }
