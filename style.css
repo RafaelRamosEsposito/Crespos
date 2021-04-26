@@ -8,6 +8,23 @@ header {
     background-color: white;
     width: 100%;
 }
+.menubarras {
+    width: 80px;
+    height: auto;
+    color: white;
+    background-color: #9767A9 ;
+    font-size: 27px;
+    display: none;
+}
+@media (max-width: 380px){
+    .menubarras{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 nav {
     display: flex;
     justify-content: center;
@@ -19,16 +36,33 @@ nav {
     width: 7%;
     margin-right: 70px;
 }
+@media (max-width: 380px) {
+    .logotodecacho{
+        width: 23%;
+        margin-left: 36px;
+    }
+}
 ul {
     display: flex;
     list-style: none;
     width: 40rem;
     justify-content: space-around;
 }
+@media(max-width: 380px) {
+    ul{
+        display: none;
+    }
+}
+
 .dicas, .cronogramacapilar, .referencias, .produtos, .cadastrese, .contato {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color: #9767A9;
+}
+@media(max-with: 380px){
+    .dicas, .cronogramacapilar, .referencias, .produtos, .cadastrese, .contato {
+        display: none;
+    } 
 }
 .dicas:hover {
     font-weight: bold;
@@ -56,6 +90,11 @@ ul {
     height: 35px;
     margin-left: 65px;
     margin-right: 21px;
+}
+@media (max-width: 380px ) {
+    .boxbusca {
+        display: none;
+    }
 }
 .lupa {
     width: 10%;
@@ -89,15 +128,30 @@ ul {
     height: 50%;
     width: auto;
 }
+@media (max-width: 380px) {
+    .iconface {
+        display: none;
+    }
+}
 .iconinsta {
     margin: 8px;
     height: 50%;
     width: auto;
 }
+@media (max-width: 380px) {
+    .iconinsta {
+        display: none;
+    }
+}
 .iconyoutube {
     margin: 8px;
     height: 50%;
     width: auto;
+}
+@media (max-width: 380px){
+    .iconyoutube {
+        display: none;
+    }
 }
 .firstsection {
     width: 100%;
@@ -108,6 +162,12 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+@media (max-width: 380px){
+    .firstsection{
+        width:375px;
+        height: auto;
+    }
 }
 .paragraphleft {
     display: flex;
