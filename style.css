@@ -41,9 +41,10 @@ nav {
     width: 7%;
     margin-right: 70px;
 }
-@media(max-width: 380px) {
-    .logotodecacho {
+@media (max-width: 380px) {
+    .logotodecacho{
         width: 23%;
+        margin-left: 0px;
     }
 }
 ul {
@@ -58,9 +59,15 @@ ul {
     }
 }
 .dicas, .cronogramacapilar, .ref, .produtos, .cadastrese, .contato {
+
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color: #9767A9;
+}
+@media(max-with: 380px){
+    .dicas, .cronogramacapilar, .ref, .produtos, .cadastrese, .contato {
+        display: none;
+    } 
 }
 .dicas:hover {
     font-weight: bold;
@@ -92,6 +99,11 @@ ul {
 @media(max-width: 380px) {
     .boxbusca {
         display:none;
+    }
+}
+@media (max-width: 380px ) {
+    .boxbusca {
+        display: none;
     }
 }
 .lupa {
@@ -126,10 +138,20 @@ ul {
     height: 50%;
     width: auto;
 }
+@media (max-width: 380px) {
+    .iconface {
+        display: none;
+    }
+}
 .iconinsta {
     margin: 8px;
     height: 50%;
     width: auto;
+}
+@media (max-width: 380px) {
+    .iconinsta {
+        display: none;
+    }
 }
 .iconyoutube {
     margin: 8px;
